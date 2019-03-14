@@ -14,39 +14,39 @@
       debug: true,
       steps: [
         {
-          path: "/",
+          path: "",
           element: "#demo",
           placement: "bottom",
           title: "Welcome to Bootstrap Tour!",
           content: "Introduce new users to your product by walking them through it step by step."
         }, {
-          path: "/",
+          path: "",
           element: "#usage",
           placement: "top",
           title: "A super simple setup",
           content: "Easy is better, right? The tour is up and running with just a few options and steps."
         }, {
-          path: "/",
+          path: "",
           element: "#license",
           placement: "top",
           title: "Best of all, it's free!",
           content: "Yeah! Free as in beer... or speech. Use and abuse, but don't forget to contribute!"
         }, {
-          path: "/api",
+          path: "api",
           element: "#options",
           placement: "top",
           title: "Flexibilty and expressiveness",
           content: "There are more options for those who want to get on the dark side.<br>\nPower to the people!",
           reflex: true
         }, {
-          path: "/api",
+          path: "api",
           element: "#duration",
           placement: "top",
           title: "Automagically expiring step",
           content: "A new addition: make your tour (or step) completely automatic. You set the duration, Bootstrap\nTour does the rest. For instance, this step will disappear in <em>5</em> seconds.",
           duration: 5000
         }, {
-          path: "/api",
+          path: "api",
           element: "#methods table",
           placement: "top",
           title: "A new shiny Backdrop option",
@@ -54,14 +54,14 @@
           backdrop: true,
           backdropPadding: 5
         }, {
-          path: "/api",
+          path: "api",
           element: "#reflex",
           placement: "bottom",
           title: "Reflex mode",
           content: "Reflex mode is enabled, click on the text in the cell to continue!",
           reflex: true
         }, {
-          path: "/api",
+          path: "api",
           title: "And support for orphan steps",
           content: "If you activate the orphan property, the step(s) are shown centered in the page, and you can\nforget to specify element and placement!",
           orphan: true,
